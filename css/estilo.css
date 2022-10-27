@@ -1,0 +1,75 @@
+/* INDEX
+-------------------------------------------------- */
+
+body{margin:0px}
+
+.fondo-nav {
+    background: #353a40
+}
+
+main {
+    display: block;
+}
+
+.fondo{
+    background-size: cover;
+    min-height: 90vh;
+    position: relative;
+    color: white;
+}
+
+.mascara{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.6);
+}
+
+.oradores {margin: 30px;
+           margin-left: 100px;
+           margin-right: 100px;
+           }
+
+
+
+  .form-horizontal{
+    display:block;
+    width:50%;
+    margin:0 auto;
+}
+
+.botonEnviar{
+    width: 100%;
+    background-color: #96C93E;
+    color: white;
+    border-color: transparent;
+}
+
+.gradiente{
+    background: linear-gradient(to right, #1C3643 , #1C4E6C);
+  }
+
+
+  
+@media (max-width: 768px){
+    .fondo{
+        min-height: 60vh;
+
+}
+    }
+
+@media (max-width: 575.98px){
+    .fondo{
+        min-height: 50vh;
+}}
+
+/* CompraTickets
+-------------------------------------------------- */
+
+.btn-form {
+    background: #96c93e;
+    color: #fff !important;
+    border:#96c93e;
+  }
+
+  .btn-form:hover { background: #74aa17; }
